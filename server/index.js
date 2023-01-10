@@ -13,8 +13,8 @@ app.listen(process.env.PORT || 8080, () => {
 
 const db = mysql.createConnection({
 
-    user: 'root',
-    host: '127.0.0.1',
+    user: 'admin',
+    host: 'ecomm.ct3o6hqjvao9.us-east-1.rds.amazonaws.com',
     password: 'Candice3+',
     database: 'ecomm',
 
